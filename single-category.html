@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khan's Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ***************************************Header*********************************************-->
+  <header>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <img src="logo.jpg" class="logo" alt="Logo"/>
+      </div>
+
+      <div class="title">
+        <h1>Khan's Restaurant</h1>
+        <span><i class="fa-solid fa-star"></i> Halal Certified</span>
+      </div>
+    <!-- ************************menu button********************** -->
+  <!-- Hidden checkbox for toggle -->
+  <input type="checkbox" id="menu-toggle" />
+
+  <!-- Label acts as toggle button -->
+   <label for="menu-toggle" class="menu-toggle">&#9776;</label>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menucategory.html">🍽 Menu</a></li>
+      <li><a href="#">ℹ️ About</a></li>
+      <li><a href="#">🏆 Awards</a></li>
+      <li class="phone">
+      <a href="tel:03187776054">📞 03187776054</a>
+      <div class="small-note">*We Deliver</div>
+      </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- end of header -->
+   <!--******************* main content************************************* -->
+   <div id="main-content" class="container">
+  <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+  <div class="text-center">Lunch is not served after 1pm.</div>
+
+  <section class="row">
+    <!-- First item -->
+    <div class="menu-item-tile col-md-6">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menu-item-photo">
+            <div>D01</div>
+            <img class="img-responsive" width="250" height="200" src="pizza.jpg">
+          </div>
+          <div class="menu-item-price">$10.95</div><span>(pint)</span> $14.95 <span>(quart)</span>
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Chicken Pizza</h3>
+          <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur aliquam et corporis excepturi repellendus laborum debitis, officiis temporibus reprehenderit.ipsum dolor sit amet, adipisicing elit...</p>
+        </div>
+      </div>
+      <hr class="visible-xs">
+    </div>
+    <!-- Second item -->
+    <div class="menu-item-tile col-md-6">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menu-item-photo">
+            <div>D02</div>
+            <img class="img-responsive" width="250" height="200" src="t.jpg">
+          </div>
+          <div class="menu-item-price">$10.95</div><span>(pint)</span> $14.95 <span>(quart)</span>
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Chicken Roast</h3>
+          <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eaque explicabo amet voluptas aliquid illo voluptate natus sit sunt, cumque cupiditate
+             ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        </div>
+      </div>
+      <hr class="visible-xs">
+    </div>
+    <div class="clearfix visible-md block visible-lg-block"></div>
+    <!-- 3rd -->
+     <div class="menu-item-tile col-md-6">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menu-item-photo">
+            <div>D03</div>
+            <img class="img-responsive" width="250" height="200" src="wg.jpg">
+          </div>
+          <div class="menu-item-price">$10.95</div><span>(pint)</span> $14.95 <span>(quart)</span>
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Wings</h3>
+          <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eaque explicabo amet voluptas aliquid illo voluptate natus sit sunt, cumque cupiditate
+             ipsum dolor sit amet, consectetur adipisicing elit...></p>
+        </div>
+      </div>
+      <hr class="visible-xs">
+    </div>
+    <!-- 4th -->
+      <div class="menu-item-tile col-md-6">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menu-item-photo">
+            <div>D04</div>
+            <img class="img-responsive" width="250" height="200" src="kk.jpg">
+          </div>
+          <div class="menu-item-price">$10.95</div><span>(pint)</span> $14.95 <span>(quart)</span>
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Chocolate Cake</h3>
+          <p class="menu-item-details"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eaque explicabo amet voluptas aliquid illo voluptate natus sit sunt, cumque cupiditate
+             ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        </div>
+      </div>
+      <hr class="visible-xs">
+    </div>
+    <div class="clearfix visible-md block visible-lg-block"></div>
+    <!-- 5th -->
+      <div class="menu-item-tile col-md-6">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menu-item-photo">
+            <div>D05</div>
+            <img class="img-responsive" width="250" height="200" src="juice.jpg">
+          </div>
+          <div class="menu-item-price">$10.95</div><span>(pint)</span> $14.95 <span>(quart)</span>
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Chocolate Ice-Cream</h3>
+          <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eaque explicabo amet voluptas aliquid illo voluptate natus sit sunt, cumque cupiditate
+             ipsum dolor sit amet, consectetur adipisicing elit... </p>
+        </div>
+      </div>
+      <hr class="visible-xs">
+    </div>
+    <!-- 6th -->
+      <div class="menu-item-tile col-md-6">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menu-item-photo">
+            <div>D06</div>
+            <img class="img-responsive" width="250" height="200" src="l.jpg">
+          </div>
+          <div class="menu-item-price">$10.95</div><span>(pint)</span> $14.95 <span>(quart)</span>
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Mango Kulfa</h3>
+          <p class="menu-item-details"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eaque explicabo amet voluptas aliquid illo voluptate natus sit sunt, cumque cupiditate
+             ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        </div>
+      </div>
+      <hr class="visible-xs">
+    </div>
+    <div class="clearfix visible-md block visible-lg-block"></div>
+  </section>
+</div>
+   <!--************************* End of Main Content ************************************** -->
+
+<!-- footer -->
+ <footer class="panel-footer">
+<div class="footer-content">
+  <div class="row-section">
+    <section class="hours">
+      <span>Hours:</span><br>
+      Sat -Thurs:<br> 11:15am - 10:30pm<br>
+      Friday: <br>11:15am - 2:30pm<br>
+    </section>
+    <section class="address">
+      <span>Address:</span><br>
+      7105 Reistertown Road<br>
+      Baltimore, Md 21215
+      <p>Delivery area within 3-4<br>
+       miles with minimum <br>
+        order of Rs.2000</p>
+    </section>
+    <section class="testimonials">
+      <p>Follow us on</p>
+     <span><i class="fa-brands fa-facebook"></i></span>
+    <span><i class="fa-brands fa-linkedin"></i></span>
+   <span><i class="fa-brands fa-instagram"></i></span>
+    </section>
+  </div>
+  <div class="copyright">
+    <i class="fa-regular fa-copyright"></i>
+    CopyRight 2025 Khan's Restaurant
+  </div>
+</div>
+</footer>
+</body>
+</html>

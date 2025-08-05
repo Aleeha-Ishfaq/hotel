@@ -1,0 +1,662 @@
+ /* ***********************Header*************************************** */
+ body {
+  font-family: "Oxygen", sans-serif;
+  background-color:wheat;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/* ****************navbar************************* */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkred;
+  padding: 10px 20px;
+  color: white;
+  height:120px;
+  position: relative;
+}
+
+.logo {
+  height: 90px;
+  width:150px;
+}
+.title{
+  margin-right: 700px;
+}
+
+.title h1 {
+  font-size: 35px;
+  margin: 0;
+  color:white ;
+  font-weight: 500px;
+}
+
+.title span {
+  font-size: 12px;
+  color: white;
+}
+  /* *******************navigation links********************************** */
+  
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  
+}
+
+.nav-links li {
+  padding: 5px 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color:white;
+  font-weight: 500;
+}
+
+.phone .small-note {
+  font-size: 0.8em;
+  color:white;
+  text-align: center;
+}
+
+
+/* .nav-links a:hover{
+    background-color: white;
+} */
+
+
+/* ***menu button */
+#menu-toggle {
+  display: none;
+}
+
+/* Style toggle button */
+.menu-toggle {
+  display: none; /* hidden by default, show on small screens below */
+  font-size: 2rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+/* ******************************hero section*************************************** */
+.hero-section{
+  background-image: url("hotel.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:600px;
+  width:100%;
+  margin-top: 2px;
+}
+/****************************** MENU categories content****************************** */
+.text-center{
+  color:black;
+  text-align: center;
+}
+h2{
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.category-tile{
+  position: relative;
+  border:2px solid darkgreen;
+  overflow:hidden;
+  width:200px;
+  height:200px;
+  margin:0 auto 15px;
+}
+.category-tile span{
+  position: absolute;
+  bottom: 0;
+  right:0;
+  width:100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color:black ;
+  color:white ;
+  opacity:.7;
+}
+.category-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div{
+  margin-bottom: 50px;
+}
+/*********************single menu catogory*****************************************/
+.row{
+  color:black;
+}
+.menu-item-tile{
+  margin-bottom: 25px;
+}
+.menu-item-tile hr{
+  width:80%;
+}
+.menu-item-tile, .menu-item-price{
+font-size: 1.1em;
+text-align: center;
+margin-top: -15px;
+margin-right: -15px;
+}
+.menu-item-tile, .menu-item-price span{
+  font-size: .7em;
+}
+.menu-item-photo{
+  position: relative;
+  border:2px solid darkgreen;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width:80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description{
+  padding-right: 30px;
+  text-align: center;
+}
+h3.menu-item-title{
+  margin:0 0 10px;
+  font-weight: 500;
+}
+.menu-item-details{
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+/* ************************ MENU SECTION ************************** */
+.sec2{
+  height:300px;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.menupic{
+  background-image: url('biryani.jpg');
+  background-position: center;
+  background-size: cover;
+  height:300px;
+  width:400px;
+  border:1px solid black;
+}
+.specialpic{
+  background-image: url('sp.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width:400px;
+  border:1px solid black;
+}
+.map-pic {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  border:1px solid black;
+}
+.specialpic:hover{
+  border:2px solid black;
+}
+.menupic:hover{
+  border:2px solid black;
+}
+.map-pic:hover{
+  border:2px solid black;
+}
+.map-title {
+  position: absolute;
+  bottom:10px;
+  background-color: black;
+  display: block;
+  opacity:0.7;
+  color: white;
+  text-align: center;
+  width: 400px;
+}
+.map-title a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu-title, .specials-title{
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  background-color: black;
+  opacity: 0.7;
+  display: block;
+  text-align: center;
+  width:400px;
+  margin-top: 270px;
+}
+/* **************************Footer*************************************** */
+.panel-footer{
+  margin-top:30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  height:300px;
+  width:100%;
+  color:#ddd;
+  background-color: #1b1212;
+
+
+}
+.address span{
+  font-weight: bold;
+}
+.hours span{
+  font-weight:bold;
+}
+.testimonials p{
+  font-weight: bold;
+  margin-top: 4px;
+}
+.testimonials i{
+  font-size: 20px;
+  
+}
+.row-section{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.copyright{
+  text-align:center;
+  margin-top: 30px;}
+
+     /***********************************end footer*********************************/
+     /************************** Responsiveness********************************* */
+     /* for desktop */
+     @media(min-width:1200px){
+      .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+      position: absolute;
+      margin-left: 700px;
+  }
+
+    .nav-links li {
+     padding: 5px 0;
+    }
+
+    .nav-links a {
+     text-decoration: none;
+     color:white;
+     font-weight: 500;
+    }
+
+  .phone .small-note {
+   font-size: 0.9em;
+   color:white;
+   text-align: center;
+  }
+
+     }
+     /* for extra small devices */
+     @media(max-width:479px){
+      .col-xxs-12{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float:left;
+        width: 100%;
+      }
+     }
+    /****************************** Mobile Styles********************************* */
+@media (max-width: 767px){
+  body {
+  font-family: "Oxygen", sans-serif;
+  background-color:wheat;
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* single menu category */
+.menu-item-photo{
+  position: relative;
+  border:2px solid darkgreen;
+  overflow: hidden;
+  padding: 0;
+  margin-right: 80px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-tile, .menu-item-price{
+font-size: .9em;
+text-align: right;
+margin-top: -15px;
+margin-right: 80px;
+} 
+ /* end  single menu category */
+/* navbar section */
+  .logo {
+    height:65px;
+    width:100px;
+  }
+ .title{
+  position: absolute;
+  left:140px;
+ }
+ .hero-section{
+  margin-top: 5px;
+ }
+  .hero-section{
+    height:300px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+/* ********************navigation links***************** */
+  /* Hide the checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Style toggle button */
+.menu-toggle {
+  display: none; 
+  font-size: 1.5rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  margin-right: 10px;
+
+  
+}
+
+/* Show toggle button on small screens */
+
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Hide nav-links by default */
+  .nav-links {
+    display: none;
+    position: fixed; /* overlay */
+    top: 105px; /* below nav-bar */
+    left: 0;
+    width: 100%;
+    background-color: darkred;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 1000; /* above hero image */
+    /* box-shadow: 0 4px 8px rgba(184, 17, 17, 0.3); */
+    
+  }
+
+  /* Show nav-links when checkbox is checked */
+  #menu-toggle:checked + .menu-toggle + .nav-links {
+    display: flex;
+  }
+
+  /* Make nav links vertical for mobile */
+  .nav-links li {
+    padding: 15px 0;
+    border-bottom: 1px solid white;
+  }
+
+  /* Keep logo-section visible (no change needed) */
+  .nav-bar {
+    position: relative;
+    z-index: 1100; /* on top of nav-links */
+  }
+
+  /* section 2 */
+  .sec2{
+    width:100%;
+    display: block;
+  }
+  .menupic{
+  background-image: url('biryani.jpg');
+  background-position: center;
+  background-size: cover;
+  height:300px;
+  width:100%;
+  border:1px solid black;
+  margin-bottom: 5px;
+}
+.specialpic{
+  background-image: url('sp.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width:100%;
+  border:1px solid black;
+  margin-bottom: 5px;
+}
+  .menu-title, .specials-title{
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  background-color: black;
+  opacity: 0.7;
+  display: block;
+  text-align: center;
+  width:100%;
+  margin-top: 270px;
+}
+.map-pic {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  border:1px solid black;
+  margin-bottom: 10px;
+}
+
+.map-title {
+  position: absolute;
+   bottom:10px;
+  background-color: black;
+  display: block;
+  opacity:0.7;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+/* footer */
+.panel-footer{
+  margin-top: 620px;
+  height:250px;
+  width:100%;
+}
+.row-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.hours > span, .address > span{
+  font-size: 14px;
+}
+.hours{
+  margin-right: 250px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+.address{
+  margin-left: 40px;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 30px;
+}
+.testimonials{
+  font-size: 12px;
+  margin-left: 300px;
+  position: absolute;
+  margin-top: 30px;
+}
+.copyright{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 14px;
+}
+
+}
+/***************************** for tablets ******************************/
+@media(min-width: 768px) and (max-width:991px){
+.title{
+  margin-right: 250px;
+}
+.sec2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.menupic{
+ flex:1 1 45%;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.specialpic{
+ flex:1 1 45%;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.menu-title, .specials-title{
+  width: 45%;
+}
+.map-pic{
+  flex:1 1 100%;
+  margin-top: 10px;
+}
+.map-title{
+  width: 100%;
+}
+.panel-footer{
+  margin-top: 270px;
+  height:300px;
+  width:100%;
+}
+.row-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.hours > span, .address > span{
+  font-size: 16px;
+}
+.hours{
+  margin-right: 450px;
+  font-size: 14px;
+  margin-top: 50px;
+}
+.address{
+  margin-left: 30px;
+  font-size: 14px;
+  position: absolute;
+  margin-top: 50px;
+}
+.testimonials{
+  font-size: 12px;
+  margin-left: 430px;
+  position: absolute;
+  margin-top: 50px;
+}
+.copyright{
+  margin-top: 120px;
+  text-align: center;
+  font-size: 14px;
+}
+
+} 
+/******************************* for pro tablets ****************************************/
+@media(min-width:992px) and (max-width:1199px){
+  .sec2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .menupic,.specialpic{
+   width:45%;
+   height:300px;
+   margin-left: 10px;
+   margin-right:10px ;
+  }
+  .menu-title, .specials-title{
+    width: 45%;
+  }
+  .map-pic{
+    margin-top: 10px;
+    width: 100%;
+    height:300px;
+  }
+  .map-title{
+    width: 100%;
+  }
+  .panel-footer{
+    margin-top: 320px;
+  height:350px;
+  width:100%;
+}
+.row-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.hours > span, .address > span{
+  font-size: 16px;
+}
+.hours{
+  margin-right: 500px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.address{
+  margin-left: 20px;
+  font-size: 14px;
+  position: absolute;
+  margin-top: 30px;
+}
+.testimonials{
+  font-size: 14px;
+  margin-left: 470px;
+  position: absolute;
+  margin-top: 30px;
+}
+.copyright{
+  margin-top: 90px;
+  text-align: center;
+  font-size: 16px;
+}
+
+  
+}
