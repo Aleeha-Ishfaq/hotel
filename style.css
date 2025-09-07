@@ -37,6 +37,9 @@
   color:white ;
   font-weight: 500px;
 }
+.title a{
+  text-decoration: none;
+}
 
 .title span {
   font-size: 12px;
@@ -258,14 +261,6 @@ h3.menu-item-title{
   margin-top: 270px;
 }
 /* **************************Footer*************************************** */
-.footer{
- margin-top:30px;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  height:300px;
-  width:100%;
-  color:#ddd;
-  background-color: #1b1212;}
 .panel-footer{
   margin-top:30px;
   padding-bottom: 30px;
@@ -274,9 +269,18 @@ h3.menu-item-title{
   width:100%;
   color:#ddd;
   background-color: #1b1212;
-
-
 }
+/* menu categories footer */
+.footer{
+   margin-top:30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  height:300px;
+  width:100%;
+  color:#ddd;
+  background-color: #1b1212;
+}
+/* end */
 .address span{
   font-weight: bold;
 }
@@ -501,13 +505,15 @@ margin-right: 80px;
   width: 100%;
 }
 /* footer */
- .footer{
-  margin-top:20px;
-  height:250px;
-  width:100%;
- }
+/* menu categories footer */
+.footer{
+  margin-top: 20px;
+   height:250px;
+   width:100%
+}
+/* end */
 .panel-footer{
-  margin-top: 620px;
+  margin-top: 630px;
   height:250px;
   width:100%;
 }
@@ -672,5 +678,4 @@ margin-right: 80px;
 }
 
   
-
 }
